@@ -44,6 +44,8 @@ nav ul li a:hover{
     font-weight: bold;
     color:rgba(255, 255, 255, 0.815);
 }
+
+/*banner-area*/
 .banner-area{
     height:auto;
     position: relative;
@@ -72,6 +74,9 @@ nav ul li a:hover{
     text-align:center;
     font-size: 20px;
 }
+/*banner ends*/
+
+/*service*/
 .service{
     width:100%;
     height:auto;
@@ -87,6 +92,9 @@ nav ul li a:hover{
     text-align:center;
     padding:3%;
 }
+/*service end*/
+
+/*contact*/
 .contact{
     background-image:linear-gradient(rgba(0, 0, 0, 0.74),rgba(0, 0, 0, 0.74)),url('nn.jpg');
     background-size: cover;
@@ -131,11 +139,16 @@ nav ul li a:hover{
 .contact-items button:hover{
     opacity:0.6;
 }
+/*contact end*/
+
+/*seperator*/
 .seperator{
     height:100px;
     width:100%;
     background-color: white;
 }
+/*seperator*/
+
 /*footer starts*/
 footer{
     background-color:hsl(0, 0%, 12%);
@@ -231,9 +244,6 @@ footer{
     font-weight:600;
     text-align: center;
 }
-
-
-
 /*footer ends*/
 
 /*media query*/
